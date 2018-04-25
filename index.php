@@ -60,7 +60,7 @@ $instagramapi = json_decode(file_get_contents("https://www.instapi.io/u/$text"))
   
 bot('sendMessage',[
  'chat_id'=>$chat_id,
- 'text'=>users bio :
+ 'text'=>"users bio :
 $a1
 ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
 📍following => ($a2)
